@@ -1,4 +1,7 @@
-app = angular.module("App", ['ui.router'])
+app = angular.module("App", [
+  'ui.router'
+  'restangular'
+])
 
 app.config [
   '$stateProvider'
@@ -11,6 +14,10 @@ app.config [
       url: '/post'
       template: JST['post']
       controller: 'AppController'
+    ).state('section',
+      url: '/:section/:id'
+      template: JST['section']
+      controller: 'SectionController'
     )
 
     $urlRouterProvider.otherwise '/'
