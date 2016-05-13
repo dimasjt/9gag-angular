@@ -3,6 +3,14 @@ angular.module("App").controller 'SectionController', [
   'Restangular'
   '$stateParams'
   ($scope, Restangular, $stateParams) ->
-    Restangular.one($stateParams.section + '/' + $stateParams.id).get().then (result)->
+    getPosts = $stateParams.section + '/' + $stateParams.id
+    Restangular.one(getPosts).get().then (result)->
       $scope.posts = result.data
+      $scope.nextPage = result.paging.next
+
+    $scope.next = ()->
+      Restangular.one(getPosts + "/" + $scope.nextPage).get().then (result)->
+        $scope.posts = _.concat $scope.posts, result.data
+        $scope.nextPage = result.paging.next
+
 ]

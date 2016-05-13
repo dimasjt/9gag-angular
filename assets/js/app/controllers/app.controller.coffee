@@ -1,6 +1,6 @@
 angular.module("App").controller 'AppController', [
-  '$scope'
-  ($scope) ->
-    $scope.name = 'Angular'
-    return
+  '$rootScope'
+  '$stateParams'
+  ($rootScope, $stateParams) ->
+    $rootScope.$stateParams = $stateParams
 ]
