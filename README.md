@@ -10,3 +10,18 @@ $ bundle install
 $ rackup
 
 ```
+
+## Technologies
+
+- Sinatra
+- AngularJS
+- Restangular
+- Bootstrap
+- Coffeescript
+- Sass
+
+
+
+## API
+
+https://github.com/k3min/infinigag
