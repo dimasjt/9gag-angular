@@ -21,4 +21,6 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-angular', '1.5.5'
   gem 'rails-assets-ui-router', '>= 0.2.18'
   gem 'rails-assets-bootstrap', '3.3.6'
+  gem 'rails-assets-restangular', '>= 1.5.2'
+  gem 'rails-assets-lodash', '>= 4.12.0'
 end
