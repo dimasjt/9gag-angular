@@ -23,4 +23,5 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap', '3.3.6'
   gem 'rails-assets-restangular', '>= 1.5.2'
   gem 'rails-assets-lodash', '>= 4.12.0'
+  gem 'rails-assets-nprogress'
 end

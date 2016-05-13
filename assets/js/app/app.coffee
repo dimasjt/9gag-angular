@@ -1,12 +1,14 @@
 app = angular.module("App", [
   'ui.router'
   'restangular'
+  'nprogress'
 ])
 
 app.config [
   '$stateProvider'
   '$urlRouterProvider'
-  ($stateProvider, $urlRouterProvider) ->
+  'RestangularProvider'
+  ($stateProvider, $urlRouterProvider, RestangularProvider) ->
     $stateProvider.state('home',
       url: "/"
       template: JST['app']
@@ -21,4 +23,6 @@ app.config [
     )
 
     $urlRouterProvider.otherwise '/'
+
+    RestangularProvider.setBaseUrl('http://infinigag.k3min.eu')
 ]
