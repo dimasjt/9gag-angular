@@ -21,10 +21,24 @@
           <a class="navbar-brand" href="#">9Gangular</a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a ui-sref="section({section: 'design', id: 'fresh'})">Fresh <span class="sr-only">(current)</span></a></li>
+            <li ui-sref-active="active">
+              <a ui-sref="section({section: 'design', id: 'fresh'})">Fresh</a>
+            </li>
+
+            <li ui-sref-active="active">
+              <a ui-sref="section({section: 'funny', id: 'hot'})">Funny</a>
+            </li>
+
+            <li ui-sref-active="active">
+              <a ui-sref="section({section: 'geeky', id: 'hot'})">Geeky</a>
+            </li>
+
+            <li ui-sref-active="active">
+              <a ui-sref="section({section: 'wtf', id: 'hot'})">WTF</a>
+            </li>
+
           </ul>
         </div>
       </div>

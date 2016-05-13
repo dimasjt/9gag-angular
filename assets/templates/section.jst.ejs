@@ -1,7 +1,12 @@
-<div class="row">
+<div class="row posts">
   <div class="col-md-6 col-md-offset-3">
-    <a href="" class="thumbnail" ng-repeat="post in posts">
-      <img ng-src="{{ post.images.large }}" alt="">
-    </a>
+    <div class="thumbnail" ng-repeat="post in posts">
+      <img ng-src="{{ post.images.large }}" alt="" class="img-post">
+
+      <!-- <video ng-src="{{ post.media.mp4 }}" ng-if="!post.media"></video> -->
+      <div class="caption">
+        <h3>{{ post.caption }}</h3>
+      </div>
+    </div>
   </div>
 </div>
