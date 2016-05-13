@@ -19,6 +19,7 @@ $ rackup
 - Bootstrap
 - Coffeescript
 - Sass
+- Lodash
 
 
 
