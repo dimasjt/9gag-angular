@@ -1,0 +1,21 @@
+<html ng-app="App">
+  <head>
+    <title>Sinatra with Angular</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <%= stylesheet_tag 'application' %>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav>
+        <a ui-sref="home">Home</a>
+        <a ui-sref="post">Post</a>
+      </nav>
+      <div ui-view></div>
+    </div>
+
+    <div id="hello"></div>
+    <%= javascript_tag 'application' %>
+</html>
