@@ -76,9 +76,9 @@ DEPENDENCIES
   coffee-script
   eco
   ejs
-  rails-assets-angular!
+  rails-assets-angular (= 1.5.5)!
   rails-assets-bootstrap (= 3.3.6)!
-  rails-assets-ui-router!
+  rails-assets-ui-router (>= 0.2.18)!
   rake
   sass
   sinatra
