@@ -4,6 +4,8 @@ app = angular.module("App", [
   'nprogress'
   'ngCookies'
   'ui.router.title'
+  'ngSanitize'
+  'com.2fdevs.videogular'
 ])
 
 app.config [
