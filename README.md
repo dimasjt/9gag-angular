@@ -1,9 +1,9 @@
 ## Installation
 
 ```bash
-$ git clone git@gitlab.com:dimasjt/sinatra-angularjs.git
+$ git clone git@github.com:dimasjt/9gangular.git
 
-$ cd sinatra-angularjs
+$ cd 9gangular
 
 $ bundle install
 
