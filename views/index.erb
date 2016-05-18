@@ -1,6 +1,6 @@
 <html ng-app="App">
   <head>
-    <title>Sinatra with Angular</title>
+    <title ng-bind="($title || 'Home') + ' | 9Gangular'">9Gangular</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -38,7 +38,12 @@
             <li ui-sref-active="active">
               <a ui-sref="section({section: 'wtf', id: 'hot'})">WTF</a>
             </li>
+          </ul>
 
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="https://github.com/dimasjt/9gangular" target="_blank">Github</a>
+            </li>
           </ul>
         </div>
       </div>

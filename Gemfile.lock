@@ -24,6 +24,11 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     rails-assets-angular (1.5.5)
+    rails-assets-angular-cookies (1.5.5)
+      rails-assets-angular (= 1.5.5)
+    rails-assets-angular-sanitize (1.5.5)
+      rails-assets-angular (= 1.5.5)
+    rails-assets-angular-ui-router-title (0.0.4)
     rails-assets-bootstrap (3.3.6)
       rails-assets-jquery (>= 1.9.1, < 3)
     rails-assets-jquery (2.2.3)
@@ -34,6 +39,9 @@ GEM
       rails-assets-lodash (>= 1.3.0)
     rails-assets-ui-router (0.2.18)
       rails-assets-angular (>= 1.0.8, < 2)
+    rails-assets-videogular (1.4.3)
+      rails-assets-angular (>= 1.3.0, < 2)
+      rails-assets-angular-sanitize (>= 1.3.0, < 2)
     rake (10.5.0)
     sass (3.4.22)
     sinatra (1.4.7)
@@ -82,11 +90,15 @@ DEPENDENCIES
   eco
   ejs
   rails-assets-angular (= 1.5.5)!
+  rails-assets-angular-cookies!
+  rails-assets-angular-sanitize!
+  rails-assets-angular-ui-router-title!
   rails-assets-bootstrap (= 3.3.6)!
   rails-assets-lodash (>= 4.12.0)!
   rails-assets-nprogress!
   rails-assets-restangular (>= 1.5.2)!
   rails-assets-ui-router (>= 0.2.18)!
+  rails-assets-videogular!
   rake
   sass
   sinatra

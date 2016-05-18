@@ -24,4 +24,8 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-restangular', '>= 1.5.2'
   gem 'rails-assets-lodash', '>= 4.12.0'
   gem 'rails-assets-nprogress'
+  gem 'rails-assets-videogular'
+  gem 'rails-assets-angular-sanitize'
+  gem 'rails-assets-angular-cookies'
+  gem 'rails-assets-angular-ui-router-title'
 end

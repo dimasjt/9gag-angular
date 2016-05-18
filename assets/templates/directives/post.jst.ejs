@@ -1,0 +1,6 @@
+<div class="thumbnail" ng-repeat="post in posts" ng-if="!post.media">
+  <div class="caption">
+    <h3>{{ post.caption }}</h3>
+  </div>
+  <img ng-src="{{ post.images.large }}" alt="" class="img-post">
+</div>
