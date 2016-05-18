@@ -1,3 +1,5 @@
+//= require prototypes
+
 //= require angular
 
 //= require ui-router
