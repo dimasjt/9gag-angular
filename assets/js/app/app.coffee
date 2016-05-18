@@ -25,8 +25,11 @@ app.config [
           ($stateParams)->
             $stateParams.section
         ]
-        $title: (section)->
-          'Section ' + section.capitalize()
+        $title: [
+          'section'
+          (section)->
+            'Section ' + section.capitalize()
+        ]
       }
     )
 
