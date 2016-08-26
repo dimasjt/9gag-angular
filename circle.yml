@@ -6,8 +6,12 @@ deployment:
   production:
     branch: master
     heroku:
-      appname: ninegangular
+      appname: ninegan
 
 dependencies:
   override:
     - bundle install
+
+test:
+  override:
+    - echo "no test"
