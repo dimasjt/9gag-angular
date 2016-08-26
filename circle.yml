@@ -1,0 +1,13 @@
+machine:
+  ruby:
+    version: 2.3.1
+
+deployment:
+  production:
+    branch: master
+    heroku:
+      appname: ninegangular
+
+dependencies:
+  override:
+    - bundle install
