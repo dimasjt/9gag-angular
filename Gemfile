@@ -12,10 +12,10 @@ gem 'sinatra-asset-pipeline', require: 'sinatra/asset_pipeline'
 gem 'sass'
 gem 'uglifier'
 gem 'coffee-script'
-gem 'eco'
+
 gem 'ejs'
 
-gem 'thin'
+gem 'puma'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-angular', '1.5.5'

@@ -15,7 +15,7 @@ class Application < Sinatra::Base
 
     register Sinatra::AssetPipeline
 
-    set :server, ['thin']
+    set :server, ['puma']
 
     # Actual Rails Assets integration, everything else is Sprockets
     if defined?(RailsAssets)
